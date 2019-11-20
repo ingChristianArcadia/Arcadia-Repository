@@ -11,7 +11,7 @@
             <p><b>Estatus del Pago:</b> <?php echo $payment_status; ?></p>
 			
             <h4>Informacion del producto</h4>
-            <p><b>Titulo:</b> <?php echo $titulo_libro; ?></p>
+            <p><b>Libro:</b> <?php echo $titulo_libro; ?></p>
             <p><b>Precio:</b> <?php echo $precio_libro.' '.$currency; ?></p>
         <?php }else{ ?>
             <h1 class="error">Su pago ha fallado!</h1>
